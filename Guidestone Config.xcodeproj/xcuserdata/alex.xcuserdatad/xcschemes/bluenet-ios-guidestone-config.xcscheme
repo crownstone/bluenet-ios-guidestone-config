@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FACC50BD1EB09828006A9B68"
-               BuildableName = "bluenet-ios-guidestone-config.app"
-               BlueprintName = "bluenet-ios-guidestone-config"
-               ReferencedContainer = "container:bluenet-ios-guidestone-config.xcodeproj">
+               BuildableName = "Guidestone Config.app"
+               BlueprintName = "Guidestone Config"
+               ReferencedContainer = "container:Guidestone Config.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FACC50BD1EB09828006A9B68"
-            BuildableName = "bluenet-ios-guidestone-config.app"
-            BlueprintName = "bluenet-ios-guidestone-config"
-            ReferencedContainer = "container:bluenet-ios-guidestone-config.xcodeproj">
+            BuildableName = "Guidestone Config.app"
+            BlueprintName = "Guidestone Config"
+            ReferencedContainer = "container:Guidestone Config.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FACC50BD1EB09828006A9B68"
-            BuildableName = "bluenet-ios-guidestone-config.app"
-            BlueprintName = "bluenet-ios-guidestone-config"
-            ReferencedContainer = "container:bluenet-ios-guidestone-config.xcodeproj">
+            BuildableName = "Guidestone Config.app"
+            BlueprintName = "Guidestone Config"
+            ReferencedContainer = "container:Guidestone Config.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FACC50BD1EB09828006A9B68"
-            BuildableName = "bluenet-ios-guidestone-config.app"
-            BlueprintName = "bluenet-ios-guidestone-config"
-            ReferencedContainer = "container:bluenet-ios-guidestone-config.xcodeproj">
+            BuildableName = "Guidestone Config.app"
+            BlueprintName = "Guidestone Config"
+            ReferencedContainer = "container:Guidestone Config.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluenet-ios-guidestone-config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACC50BE1EB09828006A9B68 /* Guidestone Config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guidestone Config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC50C11EB09828006A9B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACC50C31EB09828006A9B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FACC50C61EB09828006A9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		FACC50BF1EB09828006A9B68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */,
+				FACC50BE1EB09828006A9B68 /* Guidestone Config.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FACC50BD1EB09828006A9B68 /* bluenet-ios-guidestone-config */ = {
+		FACC50BD1EB09828006A9B68 /* Guidestone Config */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "bluenet-ios-guidestone-config" */;
+			buildConfigurationList = FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "Guidestone Config" */;
 			buildPhases = (
 				FACC50BA1EB09828006A9B68 /* Sources */,
 				FACC50BB1EB09828006A9B68 /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "bluenet-ios-guidestone-config";
+			name = "Guidestone Config";
 			productName = "bluenet-ios-guidestone-config";
-			productReference = FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */;
+			productReference = FACC50BE1EB09828006A9B68 /* Guidestone Config.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "bluenet-ios-guidestone-config" */;
+			buildConfigurationList = FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "Guidestone Config" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FACC50BD1EB09828006A9B68 /* bluenet-ios-guidestone-config */,
+				FACC50BD1EB09828006A9B68 /* Guidestone Config */,
 			);
 		};
 /* End PBXProject section */
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "bluenet-ios-guidestone-config" */ = {
+		FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "Guidestone Config" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACC50CE1EB09828006A9B68 /* Debug */,
@@ -362,13 +362,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "bluenet-ios-guidestone-config" */ = {
+		FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "Guidestone Config" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FACC50D11EB09828006A9B68 /* Debug */,
 				FACC50D21EB09828006A9B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
