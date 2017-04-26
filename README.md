@@ -1,4 +1,4 @@
-# bluenet-ios-ibeaconConfig
+# bluenet-ios-guidestone-config
 
 ### Configurator based on Bluenet lib ios
 
@@ -6,16 +6,16 @@
 
 # Getting started
 
-The bluenet-ios-ibeaconConfig uses Carthage to handle it's dependencies. It's also the way you install Bluenet ios in other projects.
+The bluenet-ios-guidestone-config uses Carthage to handle it's dependencies. It's also the way you install Bluenet ios in other projects.
 If you're unfamiliar with Carthage, take a look at the project here: https://github.com/Carthage/Carthage
 
-To get the bluenet-ios-ibeaconConfig up and running, first you need to have Carthage installed. Then navigate to the project dir in which you want to include Bluenet ios and create a cartfile if one did not exist yet.
+To get the bluenet-ios-guidestone-config up and running, first you need to have Carthage installed. Then navigate to the project dir in which you want to include Bluenet-ios-lib and create a cartfile if one did not exist yet.
 (a cartfile is just a file, called "Cartfile" without extensions. Edit it in a text editor or XCode).
 
 To add the dependency to the Cartfile, copy paste the lines below into it, save it and close it:
 
 ```
-# BluenetLibIOS
+# BluenetLib
 github "crownstone/bluenet-lib-ios"
 ```
 
