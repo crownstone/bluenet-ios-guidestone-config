@@ -1,0 +1,14 @@
+# Crypto related functions and helpers for Swift
+github "krzyzanowskim/CryptoSwift"
+
+# We code in Asynchronous world. We promise. [http://promisekit.org/]
+github "mxcl/PromiseKit"
+
+# JSON Parser
+github "SwiftyJSON/SwiftyJSON"
+
+# DFU code from Nordic
+github "NordicSemiconductor/IOS-Pods-DFU-Library"
+
+# Bluenet Shared protocols
+github "crownstone/bluenet-ios-shared"

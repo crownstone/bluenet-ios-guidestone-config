@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3\nBuild version 8E162",
+  "commitish" : "0.2.4",
+  "iOS" : [
+    {
+      "hash" : "42bb23de13fa6a7babca9da3dd9081189c24e780437edc1ba6a66f154fb5da9b",
+      "name" : "BluenetShared"
+    }
+  ]
+}

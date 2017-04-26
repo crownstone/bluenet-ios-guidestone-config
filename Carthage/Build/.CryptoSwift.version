@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3\nBuild version 8E162",
+  "commitish" : "0.6.8",
+  "iOS" : [
+    {
+      "hash" : "841921aa5d36c5dfcc6bc1a69394625b8c8d1466fd927d224598fdf2af839464",
+      "name" : "CryptoSwift"
+    }
+  ]
+}

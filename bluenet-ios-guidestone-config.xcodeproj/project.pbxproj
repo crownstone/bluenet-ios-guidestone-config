@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACC50C21EB09828006A9B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC50C11EB09828006A9B68 /* AppDelegate.swift */; };
+		FACC50C41EB09828006A9B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC50C31EB09828006A9B68 /* ViewController.swift */; };
+		FACC50C71EB09828006A9B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC50C51EB09828006A9B68 /* Main.storyboard */; };
+		FACC50C91EB09828006A9B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC50C81EB09828006A9B68 /* Assets.xcassets */; };
+		FACC50CC1EB09828006A9B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACC50CA1EB09828006A9B68 /* LaunchScreen.storyboard */; };
+		FACC50D91EB09882006A9B68 /* BluenetLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D31EB09882006A9B68 /* BluenetLib.framework */; };
+		FACC50DA1EB09882006A9B68 /* BluenetShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D41EB09882006A9B68 /* BluenetShared.framework */; };
+		FACC50DB1EB09882006A9B68 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D51EB09882006A9B68 /* CryptoSwift.framework */; };
+		FACC50DC1EB09882006A9B68 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D61EB09882006A9B68 /* iOSDFULibrary.framework */; };
+		FACC50DD1EB09882006A9B68 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D71EB09882006A9B68 /* SwiftyJSON.framework */; };
+		FACC50DE1EB09882006A9B68 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50D81EB09882006A9B68 /* Zip.framework */; };
+		FACC50E11EB09973006A9B68 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACC50E01EB09973006A9B68 /* PromiseKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bluenet-ios-guidestone-config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACC50C11EB09828006A9B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACC50C31EB09828006A9B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACC50C61EB09828006A9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACC50C81EB09828006A9B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACC50CB1EB09828006A9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACC50CD1EB09828006A9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACC50D31EB09882006A9B68 /* BluenetLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluenetLib.framework; path = Carthage/Build/iOS/BluenetLib.framework; sourceTree = "<group>"; };
+		FACC50D41EB09882006A9B68 /* BluenetShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BluenetShared.framework; path = Carthage/Build/iOS/BluenetShared.framework; sourceTree = "<group>"; };
+		FACC50D51EB09882006A9B68 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		FACC50D61EB09882006A9B68 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSDFULibrary.framework; path = Carthage/Build/iOS/iOSDFULibrary.framework; sourceTree = "<group>"; };
+		FACC50D71EB09882006A9B68 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		FACC50D81EB09882006A9B68 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
+		FACC50E01EB09973006A9B68 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACC50BB1EB09828006A9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACC50E11EB09973006A9B68 /* PromiseKit.framework in Frameworks */,
+				FACC50DB1EB09882006A9B68 /* CryptoSwift.framework in Frameworks */,
+				FACC50D91EB09882006A9B68 /* BluenetLib.framework in Frameworks */,
+				FACC50DC1EB09882006A9B68 /* iOSDFULibrary.framework in Frameworks */,
+				FACC50DA1EB09882006A9B68 /* BluenetShared.framework in Frameworks */,
+				FACC50DE1EB09882006A9B68 /* Zip.framework in Frameworks */,
+				FACC50DD1EB09882006A9B68 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACC50B51EB09828006A9B68 = {
+			isa = PBXGroup;
+			children = (
+				FACC50E01EB09973006A9B68 /* PromiseKit.framework */,
+				FACC50D31EB09882006A9B68 /* BluenetLib.framework */,
+				FACC50D41EB09882006A9B68 /* BluenetShared.framework */,
+				FACC50D51EB09882006A9B68 /* CryptoSwift.framework */,
+				FACC50D61EB09882006A9B68 /* iOSDFULibrary.framework */,
+				FACC50D71EB09882006A9B68 /* SwiftyJSON.framework */,
+				FACC50D81EB09882006A9B68 /* Zip.framework */,
+				FACC50C01EB09828006A9B68 /* bluenet-ios-guidestone-config */,
+				FACC50BF1EB09828006A9B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACC50BF1EB09828006A9B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACC50C01EB09828006A9B68 /* bluenet-ios-guidestone-config */ = {
+			isa = PBXGroup;
+			children = (
+				FACC50C11EB09828006A9B68 /* AppDelegate.swift */,
+				FACC50C31EB09828006A9B68 /* ViewController.swift */,
+				FACC50C51EB09828006A9B68 /* Main.storyboard */,
+				FACC50C81EB09828006A9B68 /* Assets.xcassets */,
+				FACC50CA1EB09828006A9B68 /* LaunchScreen.storyboard */,
+				FACC50CD1EB09828006A9B68 /* Info.plist */,
+			);
+			path = "bluenet-ios-guidestone-config";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACC50BD1EB09828006A9B68 /* bluenet-ios-guidestone-config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "bluenet-ios-guidestone-config" */;
+			buildPhases = (
+				FACC50BA1EB09828006A9B68 /* Sources */,
+				FACC50BB1EB09828006A9B68 /* Frameworks */,
+				FACC50BC1EB09828006A9B68 /* Resources */,
+				FACC50DF1EB0988C006A9B68 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bluenet-ios-guidestone-config";
+			productName = "bluenet-ios-guidestone-config";
+			productReference = FACC50BE1EB09828006A9B68 /* bluenet-ios-guidestone-config.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACC50B61EB09828006A9B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex de Mulder";
+				TargetAttributes = {
+					FACC50BD1EB09828006A9B68 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6LYJ9PNC3V;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "bluenet-ios-guidestone-config" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACC50B51EB09828006A9B68;
+			productRefGroup = FACC50BF1EB09828006A9B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACC50BD1EB09828006A9B68 /* bluenet-ios-guidestone-config */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACC50BC1EB09828006A9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACC50CC1EB09828006A9B68 /* LaunchScreen.storyboard in Resources */,
+				FACC50C91EB09828006A9B68 /* Assets.xcassets in Resources */,
+				FACC50C71EB09828006A9B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FACC50DF1EB0988C006A9B68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CryptoSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/iOSDFULibrary.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Zip.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BluenetShared.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/BluenetLib.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACC50BA1EB09828006A9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACC50C41EB09828006A9B68 /* ViewController.swift in Sources */,
+				FACC50C21EB09828006A9B68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACC50C51EB09828006A9B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACC50C61EB09828006A9B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACC50CA1EB09828006A9B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACC50CB1EB09828006A9B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACC50CE1EB09828006A9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACC50CF1EB09828006A9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACC50D11EB09828006A9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LYJ9PNC3V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "bluenet-ios-guidestone-config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crownstone.bluenet-ios-guidestone-config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FACC50D21EB09828006A9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LYJ9PNC3V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "bluenet-ios-guidestone-config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.crownstone.bluenet-ios-guidestone-config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACC50B91EB09828006A9B68 /* Build configuration list for PBXProject "bluenet-ios-guidestone-config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACC50CE1EB09828006A9B68 /* Debug */,
+				FACC50CF1EB09828006A9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACC50D01EB09828006A9B68 /* Build configuration list for PBXNativeTarget "bluenet-ios-guidestone-config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACC50D11EB09828006A9B68 /* Debug */,
+				FACC50D21EB09828006A9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACC50B61EB09828006A9B68 /* Project object */;
+}

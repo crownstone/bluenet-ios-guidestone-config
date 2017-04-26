@@ -1,0 +1,14 @@
+{
+  "xcodeVersion" : "Xcode 8.3\nBuild version 8E162",
+  "commitish" : "3.1.0",
+  "iOS" : [
+    {
+      "hash" : "cbca68302fd4e34262e15e20b3717efafbe21ad509404c5eba44eb9b417baf2e",
+      "name" : "Zip"
+    },
+    {
+      "hash" : "bf6f05065d48b216e57f4c44e6095fb674919e590e3180ddcc4012fb6baff1c7",
+      "name" : "iOSDFULibrary"
+    }
+  ]
+}

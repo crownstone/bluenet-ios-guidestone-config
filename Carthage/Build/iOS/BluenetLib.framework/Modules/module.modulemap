@@ -1,0 +1,10 @@
+framework module BluenetLib {
+  umbrella header "BluenetLib.h"
+
+  export *
+  module * { export * }
+}
+
+module BluenetLib.Swift {
+    header "BluenetLib-Swift.h"
+}

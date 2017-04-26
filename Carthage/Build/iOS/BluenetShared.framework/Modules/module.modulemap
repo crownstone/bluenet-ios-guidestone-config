@@ -1,0 +1,10 @@
+framework module BluenetShared {
+  umbrella header "BluenetShared.h"
+
+  export *
+  module * { export * }
+}
+
+module BluenetShared.Swift {
+    header "BluenetShared-Swift.h"
+}
